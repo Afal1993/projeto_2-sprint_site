@@ -1,0 +1,167 @@
+body {
+    background-image: url("./assets/imagensPaisagem.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.header {
+    color: white;
+    position: absolute;
+    top: 0;
+    height: 10vh;
+    width: 98.8vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover  {
+    background-color: #28AF25;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 35px;
+    transition: 0.5s;
+    
+}
+
+.main {
+    background-color: rgba(67, 65, 65, 0.755);
+    border-radius: 35px;
+    height: 25rem;
+    width: 43rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.form-cliente {
+    position: relative;
+    left: 50px;
+}
+
+.mainText {
+    color: white;
+    position: relative;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.inputForm1 {
+    background-color: white;
+    margin-bottom: 10px;
+    width: 550px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.inputForm2 {
+    background-color: white;
+    margin-bottom: 10px;
+    width: 550px;
+    border-radius: 35px;
+    padding: 5px;
+}
+
+.inputForm3 {
+    background-color: white;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    padding: 5px;
+}
+
+.inputForm4 {
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    padding: 5px;
+}
+
+.inputForm5 {
+    background-color: white;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    padding: 5px;
+}
+
+.inputForm6 {
+    background-color: white;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    padding: 5px;
+    left: 11px;
+}
+
+.inputForm7 {
+    background-color: #28AF25;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    color: white;
+    left: 190px;
+    height: 30px;
+    width: 180px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+label {
+    color: white;
+    position: relative;
+    left: 10px;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+.senhaLabel {
+    position: relative;
+    left: 25px;
+}
+
+.telLabel {
+    position: relative;
+    left: 110px;
+}
+.cepLabel {
+    position: relative;
+    left: 330px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 30px;
+    height: 10vh;
+    width: 98.8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    background-color: rgba(67, 65, 65, 0.755);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    padding: 0 50px;
+    border-radius: 35px;
+}
