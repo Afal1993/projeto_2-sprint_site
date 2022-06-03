@@ -1,28 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    background-image: url("./assets/imagensPaisagem.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-image: url("./assets/WhatsApp\ Image\ 2022-06-02\ at\ 18.44.08.jpeg");
+   background-attachment: fixed;
+   background-size: cover;
+   display: grid;
+   justify-items: center;
+   align-content: center;
+   height: 100vh;
+   color: black;
 }
 
 .header {
     color: white;
     position: absolute;
     top: 0;
+    left: 20px;
     height: 10vh;
     width: 98.8vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .box1, .box2, .box3, .box4, .box5 {
-    font-size: 30px;
+    font-size: 50px;
     background-color: white;
     border-radius: 10px;
     padding: 0 80px;
@@ -30,28 +41,35 @@ body {
 }
 
 .box1:hover, .box2:hover, .box3:hover, .box4:hover {
-    background-color: #28AF25;
+    background-color: rgba(102, 211, 209);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 35px;
     transition: 0.5s;
+    -webkit-text-stroke-width: 1.0px;
+    -webkit-text-stroke-color: black;
     
 }
 
 .box5:hover  {
-    color: orange;
+    background-color: rgba(102, 211, 209);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 35px;
     transition: 0.5s;
+    -webkit-text-stroke-width: 1.0px;
+    -webkit-text-stroke-color: black;
 }
 
 .main {
-    background-color: rgba(67, 65, 65, 0.755);
+    background-color: rgba(102, 211, 209, 0.681);
     border-radius: 35px;
-    height: 25rem;
-    width: 43rem;
+    height: 35rem;
+    width: 70rem;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-size: 20px;
+    padding-top: 30px;
 }
 
 .form-cliente {
@@ -65,90 +83,107 @@ body {
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .inputForm1 {
     background-color: white;
-    margin-bottom: 10px;
-    width: 550px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 55px;
+    width: 80%;
     border-radius: 25px;
-    padding: 5px;
+    padding: 15px;
+    font-size: 20px;
 }
 
 .inputForm2 {
     background-color: white;
-    margin-bottom: 10px;
-    width: 550px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 55px;
+    width: 80%;
     border-radius: 35px;
-    padding: 5px;
+    padding: 15px;
+    font-size: 20px;
 }
 
 .inputForm3 {
     background-color: white;
+    position: relative;
+    left: 60px;
     margin-left: 12px;
     margin-bottom: 10px;
     border-radius: 35px;
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .inputForm4 {
     background-color: white;
+    position: relative;
+    left: 90px;
     margin-bottom: 10px;
     border-radius: 35px;
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .inputForm5 {
     background-color: white;
     position: relative;
+    left: 120px;
     margin-bottom: 10px;
     border-radius: 35px;
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .inputForm6 {
     background-color: white;
     position: relative;
-    margin-bottom: 10px;
+    margin-top: 20px;
     border-radius: 35px;
-    padding: 5px;
-    left: 11px;
+    padding: 10px;
+    left: 72px;
+    font-size: 20px;
 }
 
 .inputForm7 {
     background-color: #28AF25;
     position: relative;
-    margin-bottom: 10px;
     border-radius: 35px;
     color: white;
-    left: 190px;
-    height: 30px;
-    width: 180px;
-    font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif; 
+    left: 400px;
+    padding: 0 50px;
+    font-size: 37px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 
 label {
     color: white;
     position: relative;
-    left: 10px;
+    left: 80px;
     font-family:Arial, Helvetica, sans-serif; 
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+    font-size: 28px;
 }
 
 .senhaLabel {
     position: relative;
-    left: 25px;
+    left: 100px;
 }
 
 .telLabel {
     position: relative;
-    left: 110px;
+    left: 270px;
 }
 .cepLabel {
     position: relative;
-    left: 330px;
+    left: 620px;
 }
 
 .footer {
@@ -166,7 +201,7 @@ label {
     position: absolute;
     bottom: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
     padding: 0 50px;
