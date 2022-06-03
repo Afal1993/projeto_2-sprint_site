@@ -39,7 +39,7 @@ body {
 }
 
 .box5:hover  {
-    color: red;
+    color: orange;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 35px;
     transition: 0.5s;
