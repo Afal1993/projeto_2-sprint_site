@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prestador.css" type="text/css"/>
+    <title>Tela de cadastro do prestador</title>
+</head>
+<body>
+    <div class="header">
+        <button class="box1">Início</button>
+        <button class="box2">Serviços</button>
+        <button class="box3">Prestadores</button>
+        <button class="box4">Clientes</button>
+        <a href="https://www.facebook.com/Desconhecidos.Fatos/" target="_blank"><button class="box5">Contatos</button></a>
+    </div>
+    <div class="main">
+        <h1 class="mainText">Cadastre-se como prestador:</h1>
+        <form class="form-cliente">
+            <label>Serviço primário:</label><br>
+            <input class="inputForm1" type="text"  placeholder="Serviço a priorizar. (Ex: Pedreiro)"/><br>
+            <label>Serviços secundários:</label><br>
+            <input class="inputForm2" type="email" placeholder="Serviços sem prioridade. (Ex: Pedreiro, Mecânico, Pintor, etc)" /><br>
+            <label class="senhaLabel">Diplomas e certificados (Ganha prioridade nas indicações, não obrigatório):</label><br>
+            <input class="inputForm3" type="file"/><br>
+            <label class="cepLabel" >Empregado atualmente?</label><br>
+            <select name="empregado" class="inputForm4" type="checkbox" placeholder="(00) 00000-0000">
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select><br>
+            <label class="labelDep">Conta para depósito:</label><br>
+            <select name="banco" class="inputForm5">
+                <option value="">--Escolha--</option>
+                <option value="bancoDoBrasil">BB</option>
+                <option value="bradesco" >Bradesco</option>
+                <option value="caixa">Caixa</option>
+                <option value="inter">Inter</option>
+                <option value="itau">Itaú</option>
+                <option value="next">Next</option>
+                <option value="nubank">Nubank</option>
+                <option value="santander">Santander</option>
+            </select>
+            <input class="inputForm6" type="text" placeholder="Agência"/>
+            <span class="hifen">-</span>
+            <input class="inputForm7" type="text" placeholder="Conta"/>
+            <input class="inputForm8" type="button" value="Cadastrar"/><br>
+            <label class="labelExp">Experiência profissional:</label><br>
+            <textarea class="inputForm9" name="experiencia" placeholder="Fale sobre suas experiências profissionais." rows="2"></textarea><br>
+        </form>
+    </div>
+    <div class="footer">
+        <span class="rodape">Help Services Interprise C&A</span>
+    </div>
+</body>
+</html>
