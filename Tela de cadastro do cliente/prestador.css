@@ -191,6 +191,11 @@ body {
     -webkit-text-stroke-color: black;
 }
 
+.inputForm8:hover {
+    background-color: #31e42e;
+    transition: 1.0s;
+}
+
 .labelExp {
     position: relative;
     bottom: 18px;
@@ -239,25 +244,6 @@ label {
     padding: 0 50px;
     border-radius: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 label {
     color: white;

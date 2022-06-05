@@ -9,7 +9,6 @@
 body {
    font-family: Arial, Helvetica, sans-serif;
    background-image: url("./assets/WhatsApp\ Image\ 2022-06-02\ at\ 18.44.08.jpeg");
-   background-attachment: fixed;
    background-size: cover;
    display: grid;
    justify-items: center;
@@ -48,7 +47,6 @@ body {
     transition: 0.5s;
     -webkit-text-stroke-width: 1.0px;
     -webkit-text-stroke-color: black;
-    
 }
 
 .box5:hover  {
@@ -160,6 +158,11 @@ body {
     font-size: 37px;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
+}
+
+.inputForm7:hover {
+    background-color: #31e42e;
+    transition: 1.0s;
 }
 
 label {
