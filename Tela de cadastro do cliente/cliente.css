@@ -60,6 +60,12 @@ body {
 }
 
 .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxCliente {
     background-color: rgba(102, 211, 209, 0.681);
     border-radius: 35px;
     height: 35rem;
@@ -70,6 +76,58 @@ body {
     padding-top: 30px;
 }
 
+.boxPrestador {
+    position: relative;
+    bottom: 40px;
+}
+
+.labelPres {
+    position: absolute;
+    left: 423px;
+    bottom: 30px;
+    font-size: 40px;
+}
+
+.butPres {
+    background-color: #28AF25;
+    color: white;
+    border: 1px black solid;
+    position: absolute;
+    left: 420px;
+    font-size: 34px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    -webkit-text-stroke-width: 1.1px;
+    -webkit-text-stroke-color: black;
+    animation: butPres-animation 10s infinite;
+}
+
+@keyframes butPres-animation {
+
+    0% {
+
+    }
+
+    25% {
+        background-color: #50ef4d;
+    }
+
+    50% {
+        background-color: rgba(102, 211, 209);
+
+    }
+
+    75% {
+        background-color: #F6C207;
+    }
+
+    100% {
+
+    }
+
+}
+    
 .form-cliente {
     position: relative;
     left: 50px;
